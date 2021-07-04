@@ -50,7 +50,52 @@ h2 {
   background-image: url(img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  margin-top: 80px;
 }
 
 .experiences-section {
+  padding: 50px 20px;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-box {
+  display: flex;
+}
+
+.full-stack-dev {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px 40px;
+  box-shadow: 10px 10px 40px rgba(167, 255, 140, 0.575);
+  border-radius: 10px;
+  border-left: 7px solid;
+  border-image: linear-gradient(#6cff47, #ffb67a);
+  border-image-slice: 1;
+}
+
+.baby-dev {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px 40px;
+  box-shadow: 10px 10px 40px rgba(93, 255, 247, 0.567);
+  border-radius: 10px;
+  border-left: 7px solid;
+  border-image: linear-gradient(#9747ff, #7afff4);
+  border-image-slice: 1;
+}
+
+footer {
+  margin-bottom: -16px;
+}
+
+footer p {
+  text-align: center;
+  background: #4d4d4d;
+  color: #f7f7f7;
+  font-size: 14px;
+  padding: 5px 0;
 }
